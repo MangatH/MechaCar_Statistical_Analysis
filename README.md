@@ -70,15 +70,18 @@ p-value is greater than level of significance, therefore the deviation from the 
 
 ### T-Tests for Lot 1:
 p-value = 0, which is less than the level of significance, 0.05. Thus, the null hypothesis is rejected indicating that the result is statistically significant.
+
 <img width="572" alt="Screen Shot 2022-12-13 at 3 40 25 PM" src="https://user-images.githubusercontent.com/111387025/207541046-165f6de9-7911-4d1d-a83d-f7cf5e297c99.png">
 
 ### T-Tests for Lot 2:
 p-value = 0.0006, which is less than the level of significance, 0.05. Thus, the null hypothesis is rejected indicating that the result is statistically significant.
+
 <img width="556" alt="Screen Shot 2022-12-13 at 3 41 04 PM" src="https://user-images.githubusercontent.com/111387025/207607226-918a48b1-06d2-417c-b9d9-31b1713987a2.png">
 
 
 ### T-Tests for Lot 3:
 p-value = 0.1589, which is greater than the level of significance, 0.05. Thus, the null hypothesis is accepted indicating that the result is statistically insignificant.
+
 <img width="567" alt="Screen Shot 2022-12-13 at 3 41 33 PM" src="https://user-images.githubusercontent.com/111387025/207607416-7eb3c2e0-7ef4-485f-b155-6752b607aa46.png">
 
 
