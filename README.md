@@ -88,15 +88,15 @@ p-value = 0.1589, which is greater than the level of significance, 0.05. Thus, t
 ## Study Design: MechaCar vs Competition
 In further analysis, various metrics that can be of interest to a consumer are  cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
 
-* What metric or metrics are you going to test?
+* What metric or metrics are you going to test? <br/>
 The metrics used for next analysis can be highway fuel efficiency, maintainance cost and safety rating.
 
-* What is the null hypothesis or alternative hypothesis?
+* What is the null hypothesis or alternative hypothesis? <br/>
 The null hypothesis can be that there is no significant difference in the highway fuel efficiency, maintainance cost and safety rating. <br/>
 The alternate hypothesis can be that there is significant difference in the highway fuel efficiency, maintainance cost and safety rating.
 
-* What statistical test would you use to test the hypothesis? And why?
+* What statistical test would you use to test the hypothesis? And why? <br/>
 Multi Linear Regression analysis can be used to see the how these variables are correlated in affecting the safety rating of MechaCar and their competitors.
 
-* What data is needed to run the statistical test?
+* What data is needed to run the statistical test? <br/>
 A large sample size (greater than 30) collected from MechaCar users and their competitors, including the data for highway fuel efficiency, maintainance cost and safety rating. 
