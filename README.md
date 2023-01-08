@@ -33,7 +33,8 @@ AWD = 0.18 > 0.05, indicates random amount of variance. <br/>
 The coefficients, vehicle length and ground clearance provided a non-random amount of variance to the mpg values in the dataset. <br/>
 
 * Is the slope of the linear model considered to be zero? Why or why not? <br/>
-As per the analysis, the slope of coefficients are non zero, as shown below: <br/>
+As per the analysis, the slope of the linear model is not zero. This can be best explained with the help of p-value. The p-value is equal to 5.35e-11 which is less than 0.05. Thus indicating a non zero slope. <br/>
+The slope of coefficients is another way of affirming this non-zero slope, as shown below: <br/>
 Coefficients: <br/>
 vehicle_length = 6.267 <br/>
 vehicle_weight = 0.001 <br/>
@@ -62,28 +63,25 @@ The variance of the suspension coils of all manufacturing lots is 62.29, which i
 
 ## T-Tests on Suspension Coils:
 ### T-Tests on all manufacturing lots:
-sample mean =1498.507, p-value = 1, level of significance = 0.05 <br/>
-p-value is greater than level of significance, therefore the deviation from the null hypothesis is not statistically significant, and the null hypothesis is not rejected. Thus, it can be concluded that the result is statistically insignificant.
+sample mean =1498.78, p-value = 0.06028, level of significance = 0.05 <br/>
+p-value is greater than level of significance, therefore the null hypothesis is accepted. Thus, it can be concluded that the result is statistically insignificant.
 
-<img width="562" alt="Screen Shot 2022-12-13 at 3 39 45 PM" src="https://user-images.githubusercontent.com/111387025/207541387-2751dfa3-60c1-4108-915c-8bf9c67a0540.png">
-
+<img width="414" alt="t-test" src="https://user-images.githubusercontent.com/111387025/211200642-e8a61b91-3cf3-4ec4-ad7d-70d2fc9d15a1.png">
 
 ### T-Tests for Lot 1:
-p-value = 0, which is less than the level of significance, 0.05. Thus, the null hypothesis is rejected indicating that the result is statistically significant.
+p-value = 1, which is greater than the level of significance, 0.05. Thus, the null hypothesis is accepted, indicating that the result is statistically insignificant.
 
-<img width="572" alt="Screen Shot 2022-12-13 at 3 40 25 PM" src="https://user-images.githubusercontent.com/111387025/207541046-165f6de9-7911-4d1d-a83d-f7cf5e297c99.png">
+<img width="702" alt="lot 1" src="https://user-images.githubusercontent.com/111387025/211200676-ff073968-0cc4-4733-b1f8-35d3ab1d2fe9.png">
 
 ### T-Tests for Lot 2:
-p-value = 0.0006, which is less than the level of significance, 0.05. Thus, the null hypothesis is rejected indicating that the result is statistically significant.
+p-value = 0.6072, which is greater than the level of significance, 0.05. Thus, the null hypothesis is accepted, indicating that the result is statistically insignificant.
 
-<img width="556" alt="Screen Shot 2022-12-13 at 3 41 04 PM" src="https://user-images.githubusercontent.com/111387025/207607226-918a48b1-06d2-417c-b9d9-31b1713987a2.png">
-
+<img width="714" alt="lot 2" src="https://user-images.githubusercontent.com/111387025/211200692-0c7a1645-1d82-46a4-a4c8-cab8310b848d.png">
 
 ### T-Tests for Lot 3:
-p-value = 0.1589, which is greater than the level of significance, 0.05. Thus, the null hypothesis is accepted indicating that the result is statistically insignificant.
+p-value = 0.04168, which is less than the level of significance, 0.05. Thus, the null hypothesis is rejected, indicating that the result is statistically significant.
 
-<img width="567" alt="Screen Shot 2022-12-13 at 3 41 33 PM" src="https://user-images.githubusercontent.com/111387025/207607416-7eb3c2e0-7ef4-485f-b155-6752b607aa46.png">
-
+<img width="680" alt="lot 3" src="https://user-images.githubusercontent.com/111387025/211200700-0ac3fcc0-0bf0-42f9-b6ca-ef43be42dbc9.png">
 
 ## Study Design: MechaCar vs Competition
 In further analysis, various metrics that can be of interest to a consumer are  cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
